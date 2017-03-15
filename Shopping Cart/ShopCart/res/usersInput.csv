@@ -1,0 +1,14 @@
+#comments can be added into this file
+#This is a sample comment.
+#Format of input data is written below
+#
+#user_id,user_name,user_address
+1,Tortuga,Mexico
+2,Jesse Pinkman,Albuquerque
+3,Walter White,Methamphetamine Laboratory
+4,Gustavo Fring,Los Pollos Hermanos
+5,Hank,DEA
+6,Pablo Escobar,Colombia
+7,Steve Murphy,Florida
+8,President Gaviria,Bogota
+9,Javier Penã,Texas

@@ -1,0 +1,15 @@
+#comments can be added into this file
+#This is a sample comment.
+#Format of input data is written below
+#
+#product_id,product_name,product_quanitity,product_unit_price
+1001,Pen,50,15
+1002,Bottle,10,250
+1003,Notebook,40,40
+1004,Ricin,3,400
+1005,Methamphetamine,2000,1000
+1006,Watch,70,1899
+1007,Shirt,20,1210
+1008,Smartphone,10,8000
+1009,Crocin,500,15
+1010,Mouse,40,750

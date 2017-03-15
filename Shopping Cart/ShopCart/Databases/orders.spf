@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>database</key>
+			<string>shopCart</string>
+			<key>host</key>
+			<string>127.0.0.1</string>
+			<key>name</key>
+			<string>root@127.0.0.1</string>
+			<key>port</key>
+			<integer>3306</integer>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPTCPIPConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>root</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>latin1</string>
+			<key>contentFilter</key>
+			<dict/>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGNjdYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoK0HCBUWFxgZHSQoLDA0VSRudWxs0wkK
+			CwwQFFdOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzow0OD4ACgAOA
+			BKMREhOABYAGgAiADFR0eXBlVHJvd3NUa2V5c18QJlNlbGVjdGlv
+			bkRldGFpbFR5cGVQcmltYXJ5S2V5ZWREZXRhaWxz0wkKCxobHKCg
+			gAfSHh8gIVokY2xhc3NuYW1lWCRjbGFzc2VzXxATTlNNdXRhYmxl
+			RGljdGlvbmFyeaMgIiNcTlNEaWN0aW9uYXJ5WE5TT2JqZWN00goL
+			JSehJoAJgAvSCykqK1lOUy5zdHJpbmeAClhvcmRlcl9pZNIeHy0u
+			XxAPTlNNdXRhYmxlU3RyaW5noy0vI1hOU1N0cmluZ9IeHzEyXk5T
+			TXV0YWJsZUFycmF5ozEzI1dOU0FycmF50h4fIjWiIiNfEA9OU0tl
+			eWVkQXJjaGl2ZXLRODlUZGF0YYABAAgAEQAaACMALQAyADcARQBL
+			AFIAWgBlAGwAcAByAHQAdgB6AHwAfgCAAIIAhwCMAJEAugDBAMIA
+			wwDFAMoA1QDeAPQA+AEFAQ4BEwEVARcBGQEeASgBKgEzATgBSgFO
+			AVcBXAFrAW8BdwF8AX8BkQGUAZkAAAAAAAACAQAAAAAAAAA6AAAA
+			AAAAAAAAAAAAAAABmw==
+			</data>
+			<key>contentSortColIsAsc</key>
+			<true/>
+			<key>contentViewport</key>
+			<string>{{1, 0}, {747, 475}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>table</key>
+			<string>orders</string>
+			<key>view</key>
+			<string>SP_VIEW_CONTENT</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>200</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>UPDATE orderdetails SET prod_qty = 1000 WHERE prod_id = 3 AND order_id = 4</string>
+		<string>select * from orderdetails WHERE prod_id = 3 AND order_id = 4</string>
+		<string>select * from orderdetails WHERE prod_id = 3 AND user_id = 4</string>
+		<string>select * from orderdetails WHERE prod_id = 3</string>
+		<string>create table orderdetails (order_id int NOT NULL, prod_id int NOT NULL,  prod_qty int NOT NULL)</string>
+		<string>create table orders (order_id int NOT NULL, orderuser_id int NOT NULL, order_status varchar(200) NOT NULL , PRIMARY KEY (order_id) )</string>
+		<string>create table ordersdetails (orderdetail_id int NOT NULL, prod_id int NOT NULL, order_id int NOT NULL , order_qty int NOT NULL, PRIMARY KEY (orderdetail_id) )</string>
+		<string>create table orders (order_id int NOT NULL, user_id int NOT NULL, prod_id int NOT NULL, order_qty int NOT NULL , PRIMARY KEY (order_id) )</string>
+		<string>UPDATE products SET prod_name = 'Peter' WHERE prod_id = 3</string>
+		<string>UPDATE users SET user_name = 'Maglev' WHERE user_id = 3</string>
+		<string>UPDATE users SET user_name = 'Maglev' WHERE user_id = 2</string>
+		<string>DELETE FROM users WHERE user_id = 2</string>
+		<string>DELETE FROM users WHERE user_id = 200</string>
+		<string>DELETE FROM users WHERE user_id = 1</string>
+		<string>insert into test VALUES(7, "jazzy", "B",null)</string>
+		<string>insert into test VALUES(7, "jazzy", "B")</string>
+		<string>select * from test</string>
+		<string>selectg * from test</string>
+		<string>create table test (user_id int NOT NULL, user_name varchar(200) NOT NULL, user_add varchar(200) NOT NULL, user_order_id int , PRIMARY KEY (user_id))</string>
+		<string>alter table orders add FOREIGN KEY (prod_id) REFERENCES products( prod_id )</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>5.6.26</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
